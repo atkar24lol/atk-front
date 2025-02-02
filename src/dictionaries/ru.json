@@ -1,0 +1,371 @@
+{
+  "download": "скачать",
+  "header": {
+    "searchField": "Поиск...",
+    "slogan": "Агротехнический колледж<br>имени Султана Ибраимова",
+    "list": {
+      "main": "Главная",
+      "news": "Новости",
+      "educationalActivity": "Образовательная деятельность",
+      "gallary": "Галерея",
+      "entrants": "Абитуриентам",
+      "teachers": "Преподавателям",
+      "contacts": "Контакты"
+    },
+
+    "previews": {
+      "titles": {
+        "electronLibrary": "Электронная библиотека",
+        "main": "Миссия колледжа",
+        "blogAndNews": "Блог и новостная лента",
+        "blogAndNewsDetails": "О новости",
+        "educationActivity": "Образовательная деятельность",
+        "teachers": "Преподавателям",
+        "gallary": "Мультимедиа",
+        "contacts": "Контакты",
+        "entrants": "Абитуриентам",
+        "aboutTeachers": "Наши преподаватели",
+        "additionalEducation": "Дополнительное образование",
+        "searchResult": "Поиск по сайту",
+        "internationalCooperation": "Международное сотрудничество"
+      },
+      "descriptions": {
+        "electronLibrary": "На этой странице вы сможете изучить нашу электронную библиотеку",
+        "main": "Подготовка квалифицированного специалиста, воспитание нравственной, творческой, социально-активной личности на основе сохранения своих традиций, опыта и внедрения инноваций в условиях пепрерывной системы образования.",
+        "blogAndNews": "Страница блогов и новостей КНАУ",
+        "blogAndNewsDetails": "На этой странице вы можете узнать о конткретном событии",
+        "educationActivity": "Образовательная деятельность КНАУ",
+        "teachers": "Страница для преподователей",
+        "gallary": "Мультимедиа КНАУ",
+        "contacts": "Страница контактов для обратной связи",
+        "entrants": "Страница для абитуриентов и будущих студентов КНАУ",
+        "aboutTeachers": "На этой странице вы можете узнать больше о наших специалистах",
+        "additionalEducation": "Занятия ведут опытные преподаватели и высококвалифицированные специалисты из ведущих компаний – партнеров АТК. Колледж сотрудничает с бизнес-структурами и государственными ведомствами по вопросам организации практики и трудоустройства учащихся.По окончании обучения слушателю выдается выпускной документ, установленного АТК образца: сертификат об обучении, удостоверение о повышении квалификации, диплом о профессиональной переподготовке.",
+        "searchResult": "Поиск информации на портале КНАУ",
+        "internationalCooperation": "На этой страницы вы можете ознакомится с нашими предложениями для дальнейшего сотрудничества"
+      }
+    }
+  },
+
+  "footer": {
+    "slogan": "Агротехнический колледж<br>имени Султана Ибраимова",
+    "list": {
+      "blogAndNewsFeed": "Блог и новостная лента",
+      "additionalEducation": "Дополнительное образование",
+      "educationalActivity": "Образовательная деятельность",
+      "multimedia": "Галерея",
+      "informationForStudents": "Информация для студентов",
+      "contactInformation": "Контактная информация",
+      "informationForTeachers": "Информация для преподавателей",
+      "aboutTeachers": "О преподавателях",
+      "toApplicants": "Абитуриентам",
+      "electronicLibrary": "Электронная библиотека",
+      "internationalCooperation": "Международное сотрудничество",
+      "siteMap": "Карта сайта",
+      "educationalPortal": "Образовательный портал",
+      "address": "Адрес",
+      "phone": "+996 000 000"
+    }
+  },
+
+  "mainPage": {
+    "mainNews": {
+      "title": "Новости",
+      "link": "Все Новости"
+    },
+
+    "mainInfoBlock": {
+      "titles": {
+        "one": "Твой путь начинается здесь",
+        "two": "Заголовок",
+        "three": "Заголовок",
+        "four": "Заголовок",
+        "five": "Заголовок",
+        "six": "Заголовок"
+      },
+
+      "descriptions": {
+        "one": "Добро пожаловать в наш университет, здесь у нас много всего",
+        "two": "Описание",
+        "three": "Описание",
+        "four": "Описание",
+        "five": "Описание",
+        "six": "Описание"
+      }
+    },
+
+    "mainBlockFeedback": {
+      "title": "Обратная связь",
+      "descriptionOne": "Мы будем рады ответить на ваши вопросы",
+      "descriptionTwo": "Ответим вам в любое время!",
+      "buttonSubmit": "Заполнить форму"
+    }
+  },
+
+  "blogAndNews": {
+    "titles": {
+      "allNews": "Все Новости",
+      "allEvent": "Все мероприятия",
+      "simpleDocs": "Образцы документов",
+      "aboutButton": "Подробнее",
+      "calendar": "Календарь мероприятий"
+    }
+  },
+
+  "educationActivity": {
+    "mission": {
+      "title": "Миссия колледжа",
+      "descriptionOne": "Описание для миссии №1",
+      "descriptionTwo": "Описание для миссии №2"
+    },
+
+    "values": {
+      "title": "Ценности колледжа",
+      "valueOne": {
+        "title": "Ценность №1",
+        "descriptionOne": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean condimentum risus nec massa ultrices maximus. Duis molestie ullamcorper sapien",
+        "descriptionTwo": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean condimentum risus nec massa ultrices maximus. Duis molestie ullamcorper sapien"
+      },
+
+      "valueTwo": {
+        "title": "Ценность №2",
+        "descriptionOne": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean condimentum risus nec massa ultrices maximus. Duis molestie ullamcorper sapien",
+        "descriptionTwo": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean condimentum risus nec massa ultrices maximus. Duis molestie ullamcorper sapien"
+      },
+
+      "valueThree": {
+        "title": "Ценность №3",
+        "descriptionOne": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean condimentum risus nec massa ultrices maximus. Duis molestie ullamcorper sapien",
+        "descriptionTwo": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean condimentum risus nec massa ultrices maximus. Duis molestie ullamcorper sapien"
+      }
+    },
+
+    "strategicGoal": {
+      "title": "Стратегическая цель",
+      "descriptionOne": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean condimentum risus nec massa ultrices maximus. Duis molestie ullamcorper sapien",
+      "descriptionTwo": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean condimentum risus nec massa ultrices maximus. Duis molestie ullamcorper sapien"
+    },
+
+    "routesLearning": {
+      "title": "Основные направления политики качества образования",
+      "routeOne": {
+        "title": "Стратегическая цель",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "buttonText": "Подробнее"
+      },
+      "routeTwo": {
+        "title": "Стратегическая цель",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "buttonText": "Подробнее"
+      },
+      "routeThree": {
+        "title": "Стратегическая цель",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "buttonText": "Подробнее"
+      },
+      "routeFour": {
+        "title": "Стратегическая цель",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "buttonText": "Подробнее"
+      }
+    }
+  },
+
+  "teachers": {
+    "title": "Планы учебных занятий",
+    "button": "Подробнее",
+    "age": "Возраст",
+    "materials": {
+      "title": "Материалы для подготовки лекций",
+      "materialOne": {
+        "title": "Материал 1",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "buttonText": "Подробнее"
+      },
+      "materialTwo": {
+        "title": "Материал 2",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "buttonText": "Подробнее"
+      },
+      "materialThree": {
+        "title": "Материал 3",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "buttonText": "Подробнее"
+      },
+      "materialFour": {
+        "title": "Материал 4",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "buttonText": "Подробнее"
+      }
+    }
+  },
+
+  "gallary": {
+    "titleImages": "Фотографии",
+    "titleVideos": "Видео",
+    "titleImagesGraduates": "Галерея выпускников"
+  },
+
+  "contacts": {
+    "title": "Контакты",
+    "rector": "Ректор",
+    "rectorData": "А.С.Пушкин",
+    "president": "Президент",
+    "presidentData": "А.С.Пушкин",
+    "feedback": {
+      "name": "Ваше имя",
+      "mail": "Ваша почта",
+      "message": "Пропишите ваше обращение",
+      "enterButoon": "Отправить",
+      "descriptionOne": "Пожалуйста, заполните следующую форму, чтобы отправить жалобу. Мы ценим ваше мнение и стремимся улучшить наши услуги. Пожалуйста, будьте максимально точны и подробны в вашем описании.",
+      "descriptionTwo": "Мы обязуемся рассмотреть вашу жалобу в кратчайшие сроки и предпринять необходимые действия для улучшения нашего сервиса. Благодарим вас за обращение."
+    }
+  },
+
+  "cooperation": {
+    "newsBlock": {
+      "title": "Новость",
+      "button": "Все новости",
+      "aboutButton": "Подробнее"
+    },
+
+    "programsBlock": {
+      "title": "Программы международного образования",
+      "titleTwo": "Заголовок",
+      "description": "Описание Описание Описание Описание Описание Описание Описание Описание Описание Описание Описание Описание Описание Описание Описание Описание Описание Описание Описание Описание Описание Описание Описание Описание"
+    },
+
+    "capibilitiesStudentsBlock": {
+      "title": "Возможности для студентов заниматься образованием за границей",
+      "texts": {
+        "textOne": "Совместные образовательные программы: двойные дипломы и включенное обучение",
+        "textTwo": "PhD программы на английском языке",
+        "textThree": "Международные программы",
+        "textFour": "Программы академической мобильности",
+        "textFive": "Членство в международных организациях и ассоцияциях"
+      }
+    },
+    "contacts": {
+      "title": "Контактная информация для международных студентов",
+      "texts": {
+        "textOne": "Совместные образовательные программы: двойные дипломы и включенное обучение",
+        "textTwo": "PhD программы на английском языке",
+        "textThree": "Международные программы",
+        "textFour": "Программы академической мобильности",
+        "textFive": "Членство в международных организациях и ассоцияциях"
+      }
+    }
+  },
+
+  "siteMap": {
+    "atk": "О АТК",
+    "invite": "Поступление",
+    "educationWithAtk": "Образование в АТК",
+    "main": "Главная страница",
+    "content": "Статьи и контент",
+    "multimedia": "Мультимедиа",
+    "contacts": "Контактная информация",
+    "feedback": "Формы обратной связи",
+    "entrants": "Абитуриентам",
+    "students": "Студентам",
+    "educationActivity": "Образовательная деятельность",
+    "gallary": "Галерея",
+    "aboutTeachers": "Страница о преподавателях",
+    "blogAndNews": "Блог и новостная лента",
+    "questionParrents": "Вопросы родителей",
+    "teachers": "Преподавателям"
+  },
+
+  "additionalEducation": {
+    "coursesAndPrograms": {
+      "title": "Все курсы и программы",
+      "duration": "Длительность",
+      "price": "Цена",
+      "aboutButton": "Подробнее"
+    },
+
+    "classSchedule": {
+      "title": "Расписание занятий"
+    },
+
+    "advantages": {
+      "title": "Преимущества доп.образования"
+    },
+
+    "sertificates": {
+      "title": "Свидетельства и сертификаты"
+    }
+  },
+
+  "totalTranslate": {
+    "about": "Подробнее"
+  },
+
+  "entrants": {
+    "prioretyInformation": {
+      "title": "Важная информация при поступлении",
+      "blockOne": {
+        "title": "Для поступления в АТК требуются",
+        "textOne": "Документ о соответствующем образовании;",
+        "textTwo": "Сертификат ОРТ;",
+        "textThree": "Паспорт или другие документы удостоверяющие  личность абитуриента",
+        "textFour": "Копию приписного свидетельства (для военнообязанных)",
+        "textFive": "Фотографии 3х4 (4 шт)"
+      },
+
+      "blockTwo": {
+        "title": "Для иностранных граждан",
+        "textOne": "Документ о соответствующем образовании;",
+        "textTwo": "Паспорт или другие документы удостоверяющие  личность абитуриента",
+        "textThree": "Копию приписного свидетельства (для военнообязанных)",
+        "textFour": "Фотографии 3х4 (6 шт)",
+        "textFive": "Справка №086"
+      }
+    },
+
+    "dateReception": { "title": "Дата приёмной компании" },
+    "admissionProcedures": {
+      "title": "Процедуры поступления",
+      "blockOne": {
+        "title": "Подготовка документов",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+      },
+
+      "blockTwo": {
+        "title": "Подача документов",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+      },
+
+      "blockThree": {
+        "title": "Обработка документов",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+      },
+
+      "blockFour": {
+        "title": "Вы поступили!",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+      },
+
+      "blockFive": {
+        "title": "Что-то еще",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+      },
+
+      "blockSix": {
+        "title": "Собеседование",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+      }
+    },
+
+    "specializations": {
+      "title": "Специальности",
+      "format": "Формат обучения:",
+      "long": "Длительность обучения:",
+      "contract": "Контракт обучения:"
+    },
+
+    "faq": {
+      "title": "Ответы на часто задаваемые вопросы:"
+    }
+  }
+}

@@ -1,0 +1,376 @@
+{
+  "download": "download",
+  "header": {
+    "searchField": "Search...",
+    "slogan": "Agrotechnical College<br>named after Sultan Ibraimov",
+    "list": {
+      "main": "Home",
+      "news": "News",
+      "educationalActivity": "Educational Activity",
+      "gallary": "Gallery",
+      "entrants": "For Entrants",
+      "teachers": "For Teachers",
+      "contacts": "Contacts"
+    },
+
+    "previews": {
+      "titles": {
+        "electronLibrary": "Electronic Library",
+        "main": "Home",
+        "blogAndNews": "Blog and News Feed",
+        "blogAndNewsDetails": "About the event",
+        "educationActivity": "Educational Activity",
+        "teachers": "For Teachers",
+        "gallary": "Multimedia",
+        "contacts": "Contacts",
+        "entrants": "For Entrants",
+        "aboutTeachers": "Our Teachers",
+        "additionalEducation": "Additional Education",
+        "searchResult": "Site Search",
+        "internationalCooperation": "International Cooperation"
+      },
+      "descriptions": {
+        "electronLibrary": "electronLibrary On this page, you can explore our electronic library",
+        "main": "This is the main page",
+        "blogAndNews": "KNAU Blog and News page",
+        "blogAndNewsDetails": "On this page, you can learn about a specific event.",
+        "educationActivity": "KNAU Educational Activity",
+        "teachers": "Page for teachers",
+        "gallary": "KNAU Multimedia",
+        "contacts": "Contact page for feedback",
+        "entrants": "Page for entrants and future students of KNAU",
+        "aboutTeachers": "On this page, you can learn more about our specialists",
+        "additionalEducation": "Classes are taught by experienced teachers and highly qualified specialists from leading partner companies of ATC. The college cooperates with business structures and government agencies on issues of organizing internships and employment of students. Upon completion of the training, the listener is issued a graduation document, established by the ATC: a training certificate, a certificate of advanced training, a diploma of professional retraining.",
+        "searchResult": "Search for information on the KNAU portal",
+        "internationalCooperation": "On this page, you can get acquainted with our offers for further cooperation"
+      }
+    }
+  },
+
+  "footer": {
+    "slogan": "Agrotechnical College<br>named after Sultan Ibraimov",
+    "list": {
+      "blogAndNewsFeed": "Blog and News Feed",
+      "additionalEducation": "Additional Education",
+      "educationalActivity": "Educational Activity",
+      "multimedia": "Gallary",
+      "informationForStudents": "Information for Students",
+      "contactInformation": "Contact Information",
+      "informationForTeachers": "Information for Teachers",
+      "aboutTeachers": "About Teachers",
+      "toApplicants": "For Applicants",
+      "electronicLibrary": "Electronic Library",
+      "internationalCooperation": "International Cooperation",
+      "siteMap": "Site Map",
+      "educationalPortal": "Educational Portal",
+      "address": "Address",
+      "phone": "+996 000 000"
+    }
+  },
+
+  "mainPage": {
+    "mainNews": {
+      "title": "News",
+      "link": "All News"
+    },
+
+    "mainInfoBlock": {
+      "titles": {
+        "one": "Your journey starts here",
+        "two": "Title",
+        "three": "Title",
+        "four": "Title",
+        "five": "Title",
+        "six": "Title"
+      },
+
+      "descriptions": {
+        "one": "Welcome to our university, we have a lot here",
+        "two": "Description",
+        "three": "Description",
+        "four": "Description",
+        "five": "Description",
+        "six": "Description"
+      }
+    },
+
+    "mainBlockFeedback": {
+      "title": "Feedback",
+      "descriptionOne": "We will be happy to answer your questions",
+      "descriptionTwo": "We will answer you anytime!",
+      "buttonSubmit": "Fill out the form"
+    }
+  },
+
+  "blogAndNews": {
+    "titles": {
+      "allNews": "All News",
+      "allEvent": "All Events",
+      "simpleDocs": "Sample Documents",
+      "aboutButton": "Learn More",
+      "calendar": "Event Calendar"
+    }
+  },
+
+  "educationActivity": {
+    "mission": {
+      "title": "College Mission",
+      "descriptionOne": "Description for mission #1",
+      "descriptionTwo": "Description for mission #2"
+    },
+
+    "values": {
+      "title": "College Values",
+      "valueOne": {
+        "title": "Value #1",
+        "descriptionOne": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean condimentum risus nec massa ultrices maximus. Duis molestie ullamcorper sapien",
+        "descriptionTwo": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean condimentum risus nec massa ultrices maximus. Duis molestie ullamcorper sapien"
+      },
+
+      "valueTwo": {
+        "title": "Value #2",
+        "descriptionOne": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean condimentum risus nec massa ultrices maximus. Duis molestie ullamcorper sapien",
+        "descriptionTwo": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean condimentum risus nec massa ultrices maximus. Duis molestie ullamcorper sapien"
+      },
+
+      "valueThree": {
+        "title": "Value #3",
+        "descriptionOne": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean condimentum risus nec massa ultrices maximus. Duis molestie ullamcorper sapien",
+        "descriptionTwo": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean condimentum risus nec massa ultrices maximus. Duis molestie ullamcorper sapien"
+      }
+    },
+
+    "strategicGoal": {
+      "title": "Strategic Goal",
+      "descriptionOne": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean condimentum risus nec massa ultrices maximus. Duis molestie ullamcorper sapien",
+      "descriptionTwo": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean condimentum risus nec massa ultrices maximus. Duis molestie ullamcorper sapien"
+    },
+
+    "routesLearning": {
+      "title": "Main Directions of Education Quality Policy",
+      "routeOne": {
+        "title": "Strategic Goal",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "buttonText": "Learn More"
+      },
+      "routeTwo": {
+        "title": "Strategic Goal",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "buttonText": "Learn More"
+      },
+      "routeThree": {
+        "title": "Strategic Goal",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "buttonText": "Learn More"
+      },
+      "routeFour": {
+        "title": "Strategic Goal",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "buttonText": "Learn More"
+      }
+    }
+  },
+
+  "teachers": {
+    "title": "Class Schedules",
+    "button": "Learn More",
+    "age": "Age",
+    "materials": {
+      "title": "Materials for Preparing Lectures",
+      "materialOne": {
+        "title": "Material 1",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "buttonText": "Learn More"
+      },
+      "materialTwo": {
+        "title": "Material 2",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "buttonText": "Learn More"
+      },
+      "materialThree": {
+        "title": "Material 3",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "buttonText": "Learn More"
+      },
+      "materialFour": {
+        "title": "Material 4",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "buttonText": "Learn More"
+      }
+    }
+  },
+
+  "gallary": {
+    "titleImages": "Photos",
+    "titleVideos": "Videos",
+    "titleImagesGraduates": "Graduates Gallery"
+  },
+
+  "contacts": {
+    "title": "Contacts",
+    "rector": "Rector",
+    "rectorData": "A.S. Pushkin",
+    "president": "President",
+    "presidentData": "A.S. Pushkin",
+    "feedback": {
+      "name": "Your Name",
+      "mail": "Your Email",
+      "message": "Write your message",
+      "enterButoon": "Submit",
+      "descriptionOne": "Please fill out the following form to submit a complaint. We value your feedback and strive to improve our services. Please be as accurate and detailed as possible in your description.",
+      "descriptionTwo": "We commit to reviewing your complaint as soon as possible and taking the necessary actions to improve our service. Thank you for your feedback."
+    }
+  },
+
+  "cooperation": {
+    "newsBlock": {
+      "title": "News",
+      "button": "All News",
+      "aboutButton": "Learn More"
+    },
+
+    "programsBlock": {
+      "title": "International Education Programs",
+      "titleTwo": "Title",
+      "description": "Description Description Description Description Description Description Description Description Description Description Description Description Description Description Description Description Description Description Description Description Description Description Description Description"
+    },
+
+    "capibilitiesStudentsBlock": {
+      "title": "Opportunities for Students to Study Abroad",
+      "texts": {
+        "textOne": "Joint educational programs: double diplomas and joint programs with universities abroad.",
+        "textTwo": "Exchange programs: studying abroad for one or two semesters as part of exchange programs."
+      },
+      "buttons": {
+        "buttonOne": "Program",
+        "buttonTwo": "Program"
+      }
+    },
+
+    "eventsBlock": {
+      "title": "Joint Events",
+      "eventOne": {
+        "title": "Event #1",
+        "description": "Description for event #1",
+        "buttonText": "Learn More"
+      },
+      "eventTwo": {
+        "title": "Event #2",
+        "description": "Description for event #2",
+        "buttonText": "Learn More"
+      },
+      "eventThree": {
+        "title": "Event #3",
+        "description": "Description for event #3",
+        "buttonText": "Learn More"
+      },
+      "eventFour": {
+        "title": "Event #4",
+        "description": "Description for event #4",
+        "buttonText": "Learn More"
+      }
+    }
+  },
+
+  "siteMap": {
+    "atk": "About ATC",
+    "invite": "Admission",
+    "educationWithAtk": "Education at ATC",
+    "main": "Main Page",
+    "content": "Articles and Content",
+    "multimedia": "Multimedia",
+    "contacts": "Contact Information",
+    "feedback": "Feedback Forms",
+    "entrants": "For Entrants",
+    "students": "For Students",
+    "educationActivity": "Educational Activity",
+    "gallary": "Gallery",
+    "aboutTeachers": "About Teachers",
+    "blogAndNews": "Blog and News Feed",
+    "questionParrents": "Parent Questions",
+    "teachers": "For Teachers"
+  },
+
+  "additionalEducation": {
+    "coursesAndPrograms": {
+      "title": "All Courses and Programs",
+      "duration": "Duration",
+      "price": "Price",
+      "aboutButton": "Learn More"
+    },
+    "classSchedule": {
+      "title": "Class Schedule"
+    },
+    "advantages": {
+      "title": "Advantages of Additional Education"
+    },
+    "sertificates": {
+      "title": "Sertificates"
+    }
+  },
+
+  "totalTranslate": {
+    "about": "Learn More"
+  },
+
+  "entrants": {
+    "prioretyInformation": {
+      "title": "Important Admission Information",
+      "blockOne": {
+        "title": "For Admission to ATC You Need",
+        "textOne": "Document of appropriate education;",
+        "textTwo": "ORT certificate;",
+        "textThree": "Passport or other identity documents of the entrant",
+        "textFour": "Copy of the military registration certificate (for those liable for military service)",
+        "textFive": "Photos 3x4 (4 pcs)"
+      },
+      "blockTwo": {
+        "title": "For Foreign Citizens",
+        "textOne": "Document of appropriate education;",
+        "textTwo": "Passport or other identity documents of the entrant",
+        "textThree": "Copy of the military registration certificate (for those liable for military service)",
+        "textFour": "Photos 3x4 (6 pcs)",
+        "textFive": "Medical certificate No. 086"
+      }
+    },
+    "dateReception": {
+      "title": "Reception Dates"
+    },
+    "admissionProcedures": {
+      "title": "Admission Procedures",
+      "blockOne": {
+        "title": "Document Preparation",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+      },
+      "blockTwo": {
+        "title": "Document Submission",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+      },
+      "blockThree": {
+        "title": "Document Processing",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+      },
+      "blockFour": {
+        "title": "You Are Admitted!",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+      },
+      "blockFive": {
+        "title": "Something Else",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+      },
+      "blockSix": {
+        "title": "Interview",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+      }
+    },
+    "specializations": {
+      "title": "Specializations",
+      "format": "Study Format:",
+      "long": "Study Duration:",
+      "contract": "Study Contract:"
+    },
+    "faq": {
+      "title": "Frequently Asked Questions"
+    }
+  }
+}
