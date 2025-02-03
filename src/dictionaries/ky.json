@@ -45,7 +45,6 @@
       }
     }
   },
-
   "footer": {
     "slogan": "Султан Ибраимов атындагы<br>Агротехникалык колледж",
     "list": {
@@ -62,11 +61,10 @@
       "internationalCooperation": "Эл аралык кызматташтык",
       "siteMap": "Сайт картасы",
       "educationalPortal": "Билим берүү порталы",
-      "address": "Дарек",
-      "phone": "+996 000 000"
+      "address": "г. Бишкек, Медерова, 68",
+      "phone": "+996 312 575407"
     }
   },
-
   "mainPage": {
     "mainNews": {
       "title": "Жаңылыктар",
@@ -97,7 +95,6 @@
       "buttonSubmit": "Форманы толтуруу"
     }
   },
-
   "blogAndNews": {
     "titles": {
       "allNews": "Баардык жаңылыктар",
@@ -107,7 +104,6 @@
       "calendar": "Иш-чаралар календары"
     }
   },
-
   "educationActivity": {
     "mission": {
       "title": "Колледждин миссиясы",
@@ -161,7 +157,6 @@
       }
     }
   },
-
   "teachers": {
     "title": "Окуу пландары",
     "button": "Толук маалымат",
@@ -190,13 +185,11 @@
       }
     }
   },
-
   "gallary": {
     "titleImages": "Фотосүрөттөр",
     "titleVideos": "Видеолор",
     "titleImagesGraduates": "Бүтүрүүчүлөр галереясы"
   },
-
   "contacts": {
     "title": "Контактар",
     "rector": "Ректор",
@@ -212,20 +205,17 @@
       "descriptionTwo": "Биз сиздин кайрылууңузду мүмкүн болушунча тез карап чыгып, кызматтарыбызды жакшыртуу үчүн зарыл чараларды көрөбүз. Кайрылууңуз үчүн рахмат."
     }
   },
-
   "cooperation": {
     "newsBlock": {
       "title": "Жаңылык",
       "button": "Баардык жаңылыктар",
       "aboutButton": "Толук маалымат"
     },
-
     "programsBlock": {
       "title": "Эл аралык билим берүү программалары",
       "titleTwo": "Аталышы",
       "description": "Сүрөттөө Сүрөттөө Сүрөттөө Сүрөттөө Сүрөттөө Сүрөттөө Сүрөттөө Сүрөттөө Сүрөттөө Сүрөттөө Сүрөттөө Сүрөттөө Сүрөттөө Сүрөттөө Сүрөттөө Сүрөттөө Сүрөттөө Сүрөттөө Сүрөттөө Сүрөттөө Сүрөттөө Сүрөттөө"
     },
-
     "capibilitiesStudentsBlock": {
       "title": "Студенттерге чет өлкөдө билим алууга мүмкүнчүлүктөр",
       "texts": {
@@ -247,7 +237,6 @@
       }
     }
   },
-
   "siteMap": {
     "atk": "АТК жөнүндө",
     "invite": "Кабыл алуу",
@@ -266,7 +255,6 @@
     "questionParrents": "Ата-энелердин суроолору",
     "teachers": "Окуутуучуларга"
   },
-
   "additionalEducation": {
     "coursesAndPrograms": {
       "title": "Бардык курстар жана программалар",
@@ -274,24 +262,19 @@
       "price": "Баасы",
       "aboutButton": "Толук маалымат"
     },
-
     "classSchedule": {
       "title": "Сабактардын расписаниеси"
     },
-
     "advantages": {
       "title": "Кошумча билим берүүнүн артыкчылыктары"
     },
-
     "sertificates": {
       "title": "Ырастамалар"
     }
   },
-
   "totalTranslate": {
     "about": "Толук маалымат"
   },
-
   "entrants": {
     "prioretyInformation": {
       "title": "Кабыл алуудагы маанилүү маалымат",
@@ -303,7 +286,6 @@
         "textFour": "Аскердик милдетин аткаруучулар үчүн аныктама күбөлүгүнүн көчүрмөсү",
         "textFive": "3х4 фотосүрөттөр (4 даана)"
       },
-
       "blockTwo": {
         "title": "Чет элдик жарандар үчүн",
         "textOne": "Тийиштүү билим берүү документи;",
@@ -313,48 +295,42 @@
         "textFive": "№086 справка"
       }
     },
-
-    "dateReception": { "title": "Кабыл алуу кампаниясынын датасы" },
+    "dateReception": {
+      "title": "Кабыл алуу кампаниясынын датасы"
+    },
     "admissionProcedures": {
       "title": "Кабыл алуу процедуралары",
       "blockOne": {
         "title": "Документтерди даярдоо",
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
       },
-
       "blockTwo": {
         "title": "Документтерди тапшыруу",
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
       },
-
       "blockThree": {
         "title": "Документтерди иштеп чыгуу",
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
       },
-
       "blockFour": {
         "title": "Сиз кабыл алындыныз!",
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
       },
-
       "blockFive": {
         "title": "Башка нерсе",
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
       },
-
       "blockSix": {
         "title": "Собеседование",
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
       }
     },
-
     "specializations": {
       "title": "Адистиктер",
       "format": "Окуу форматы:",
       "long": "Окуу узактыгы:",
       "contract": "Окуу контракты:"
     },
-
     "faq": {
       "title": "Көп берилүүчү суроолорго жооптор:"
     }
