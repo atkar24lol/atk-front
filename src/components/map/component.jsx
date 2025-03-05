@@ -25,7 +25,7 @@ const Map = ({ dict }) => {
   return (
     <div className={'w-full'}>
       <MapContainer
-        className={'z-10 sm:min-h-[304px] min-h-[676px]'}
+        className={'z-10 sm:min-h-[304px] md:min-h-[400px] min-h-[676px]'}
         center={position}
         zoom={17}
         scrollWheelZoom={false}

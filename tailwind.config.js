@@ -6,9 +6,9 @@ const config = {
   ],
   theme: {
     screens: {
-      sm: { min: '320px', max: '600px' },
-      md: { min: '600px', max: '900px' },
-      lg: { min: '900px', max: '1200px' },
+      sm: { min: '0px', max: '600px' },
+      md: { min: '600px', max: '1024px' },
+      lg: { min: '1024px', max: '1200px' },
       xl: { min: '1200px', max: '1500px' },
       xxl: { min: '1500px', max: '1920px' },
     },

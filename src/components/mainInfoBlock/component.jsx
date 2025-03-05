@@ -1,119 +1,133 @@
 'use client';
 
-import { ArrowForwardIos } from '@mui/icons-material';
 import { useParams, useRouter } from 'next/navigation';
-import React from 'react';
+import React, { useState } from 'react';
 
-const MainInfoBlock = ({ dict }) => {
-  const router = useRouter();
-  const { lang } = useParams();
+// Компонент для блока специальности
+const SpecialityBlock = ({ href, image, title, description }) => {
+    const [isHovered, setIsHovered] = useState(false);
 
-  return (
-    <div className="w-full flex flex-wrap">
-      {/* 1 */}
-      <div className="w-full h-[559px] md:h-[400px] sm:h-[231px] sm:flex-row-reverse md:flex-row-reverse flex md:flex-wrap sm:flex-wrap">
-        <div className="w-[40%] md:w-[50%] sm:w-[50%] h-full bg-[#0072BC] p-8 flex justify-evenly">
-          <div className="flex flex-col md:flex-nowrap sm:flex-nowrap flex-wrap justify-between items-start">
-            <p className="font-[900] md:text-[28px] sm:text-[15px] text-[33px] text-[#ffffff]">
-              {dict?.mainPage?.mainInfoBlock?.titles?.one}
-            </p>
-
-            <span className="font-[400] text-[#fff] text-[16px] sm:text-[8px] text-justify">
-              {dict?.mainPage?.mainInfoBlock?.descriptions?.one}
-            </span>
-
-            <span
-              onClick={() => router.push(`${lang}/education-activity`)}
-              className="flex gap-3 pt-[60px] cursor-pointer justify-between items-center font-[700]
-          text-[12px] sm:text-[6px] tracking-[1.5px] text-[#ffffff]"
-            >
-              {dict?.totalTranslate?.about}
-
-              <ArrowForwardIos
-                sx={{
-                  fontSize: '12px',
+    return (
+        <a
+            href={href}
+            className="group relative h-[500px] xl:h-[390px] lg:h-[350px] md:h-[350px] sm:h-[250px] w-[50%] md:w-full sm:w-full flex flex-col px-8 py-16 lg:py-12 md:py-9 sm:py-6 items-start cursor-pointer overflow-hidden transition-all duration-500"
+            onMouseEnter={() => setIsHovered(true)}
+            onMouseLeave={() => setIsHovered(false)}
+        >
+            {/* Фоновое изображение */}
+            <div
+                className="absolute inset-0 bg-cover bg-center transition-all duration-500 z-10"
+                style={{
+                    backgroundImage: `url(${image})`,
+                    transform: isHovered ? 'scale(1.05)' : 'scale(1)',
                 }}
-              />
-            </span>
-          </div>
-        </div>
-        <div
-          className="w-[30%] md:w-[50%] sm:w-[50%] h-full py-8 px-20 flex justify-start items-end md:justify-center sm:justify-center md:items-center sm:items-center"
-          style={{
-            backgroundImage: "url('/main-info-image-one.png')",
-            backgroundSize: '100% 100%',
-            backgroundRepeat: 'no-repeat',
-          }}
-        >
-          <p className="font-[900] text-[19px] md:text-[15px] sm:text-[11px] text-[#fff]">
-            {dict?.mainPage?.mainInfoBlock?.titles?.two}
-          </p>
-        </div>
-        <div
-          className="w-[30%] md:w-[50%] sm:w-[50%] h-full py-8 px-20 flex justify-start items-end"
-          style={{
-            backgroundImage: "url('/main-info-image-two.png')",
-            backgroundSize: '100% 100%',
-            backgroundRepeat: 'no-repeat',
-          }}
-        >
-          <p className="font-[900] text-[19px] text-[#fff]">
-            {dict?.mainPage?.mainInfoBlock?.titles?.three}
-          </p>
-        </div>
-      </div>
+            ></div>
 
-      {/* 2 */}
-      <div className="w-full h-[700px] md:h-[350px] sm:h-[260px]  flex justify-start items-end md:flex-wrap sm:flex-wrap">
-        <div
-          style={{
-            backgroundImage: "url('/main-info-image-three.png')",
-            backgroundSize: '100% 100%',
-            backgroundRepeat: 'no-repeat',
-          }}
-          className="w-[33%] md:w-[50%] sm:w-[50%] h-full p-8 flex justify-center items-center flex-wrap"
-        >
-          <p className="font-[900] sm:text-[12px] md:text-[16px] text-[34px] text-[#fff]">
-            {dict?.mainPage?.mainInfoBlock?.titles?.three}
-          </p>
-        </div>
-        <div
-          style={{
-            backgroundImage: "url('/main-info-image-four.png')",
-            backgroundSize: '100% 100%',
-            backgroundRepeat: 'no-repeat',
-          }}
-          className="w-[33%] md:w-[50%] sm:w-[50%] h-full p-8 flex justify-center items-center"
-        >
-          <p className="font-[900] sm:text-[12px] md:text-[16px] text-[34px] text-[#fff]">
-            {dict?.mainPage?.mainInfoBlock?.titles?.four}
-          </p>
-        </div>
-        <div
-          style={{
-            backgroundImage: "url('/main-info-image-five.png')",
-            backgroundSize: '100% 100%',
-            backgroundRepeat: 'no-repeat',
-          }}
-          className="w-[34%] md:w-[50%] sm:w-[50%] h-full p-8 flex justify-center items-center md:hidden sm:hidden"
-        >
-          <p className="font-[900] sm:text-[12px] md:text-[16px] text-[34px] text-[#fff]">
-            {dict?.mainPage?.mainInfoBlock?.titles?.five}
-          </p>
-        </div>
-      </div>
+            {/* Затемняющий градиент */}
+            <div
+                className="absolute inset-0 opacity-0 transition-opacity duration-500 z-20"
+                style={{
+                    background: isHovered
+                        ? 'linear-gradient(to top, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5), transparent)'
+                        : 'none',
+                    opacity: isHovered ? 1 : 0,
+                }}
+            ></div>
 
-      {/* <div
-        className="w-full h-[626px]"
-        style={{
-          backgroundImage: "url('/main-info-image-bg.png')",
-          backgroundSize: 'cover',
-          backgroundRepeat: 'no-repeat',
-          backgroundPosition: 'center',
-        }}
-      /> */}
-    </div>
-  );
+            {/* Заголовок */}
+            <h1 className="relative z-30 text-[26px] xl:text-[20px] lg:text-[16px] md:text-[26px] sm:text-[16px] text-white font-extrabold drop-shadow-lg">
+                {title}
+            </h1>
+
+            {/* Всплывающий текст */}
+            <p
+                className="absolute bottom-[-100%] left-8 right-8 text-white text-md opacity-0 transition-all duration-500 group-hover:bottom-16 group-hover:opacity-100 z-30"
+                style={{
+                    bottom: isHovered ? '3rem' : '-100%',
+                    opacity: isHovered ? 1 : 0,
+                }}
+            >
+                {description}
+            </p>
+        </a>
+    );
+};
+
+// Основной компонент
+const MainInfoBlock = ({ dict }) => {
+    const router = useRouter();
+    const { lang } = useParams();
+
+    return (
+        <div className="flex flex-col">
+            {/* Первый блок с заголовком и кнопкой */}
+            <div className="flex justify-between">
+                {/* Блоки специальностей */}
+                <div className="flex flex-wrap justify-between">
+                    <SpecialityBlock
+                        href={`/${lang}/specialities/agronomy`}
+                        image="/agronomy.jpg"
+                        title={dict?.mainPage?.mainInfoBlock?.titles?.two}
+                        description={dict?.mainPage?.mainInfoBlock?.descriptions.two}
+                    />
+                    <SpecialityBlock
+                        href={`/${lang}/specialities/veterinary`}
+                        image="/veterinary.jpg"
+                        title={dict?.mainPage?.mainInfoBlock?.titles?.three}
+                        description={dict?.mainPage?.mainInfoBlock?.descriptions.three}
+                    />
+                    <SpecialityBlock
+                        href={`/${lang}/specialities/hydraulic_engineering`}
+                        image="/hydrotech.webp"
+                        title={dict?.mainPage?.mainInfoBlock?.titles?.four}
+                        description={dict?.mainPage?.mainInfoBlock?.descriptions.four}
+                    />
+                    <SpecialityBlock
+                        href={`/${lang}/specialities/land_management`}
+                        image="/zemleust.jpg"
+                        title={dict?.mainPage?.mainInfoBlock?.titles?.five}
+                        description={dict?.mainPage?.mainInfoBlock?.descriptions.five}
+                    />
+                    <SpecialityBlock
+                        href={`/${lang}/specialities/ichthyology`}
+                        image="/ihtiologia.jpg"
+                        title={dict?.mainPage?.mainInfoBlock?.titles?.six}
+                        description={dict?.mainPage?.mainInfoBlock?.descriptions.six}
+                    />
+                    <SpecialityBlock
+                        href={`/${lang}/specialities/melioration`}
+                        image="/meliorization.jpg"
+                        title={dict?.mainPage?.mainInfoBlock?.titles?.seven}
+                        description={dict?.mainPage?.mainInfoBlock?.descriptions.seven}
+                    />
+                    <SpecialityBlock
+                        href={`/${lang}/specialities/geodesy`}
+                        image="/geodezia.jpg"
+                        title={dict?.mainPage?.mainInfoBlock?.titles?.eight}
+                        description={dict?.mainPage?.mainInfoBlock?.descriptions.eight}
+                    />
+                    <SpecialityBlock
+                        href={`/${lang}/specialities/informatics`}
+                        image="/informatika.jpg"
+                        title={dict?.mainPage?.mainInfoBlock?.titles?.nine}
+                        description={dict?.mainPage?.mainInfoBlock?.descriptions.nine}
+                    />
+                    <SpecialityBlock
+                        href={`/${lang}/specialities/agricultural_entrepreneurship`}
+                        image="/selhoz.jpg"
+                        title={dict?.mainPage?.mainInfoBlock?.titles?.ten}
+                        description={dict?.mainPage?.mainInfoBlock?.descriptions.ten}
+                    />
+                    <SpecialityBlock
+                        href={`/${lang}/specialities/ecology`}
+                        image="/ecology.jpg"
+                        title={dict?.mainPage?.mainInfoBlock?.titles?.eleven}
+                        description={dict?.mainPage?.mainInfoBlock?.descriptions.eleven}
+                    />
+                </div>
+            </div>
+        </div>
+    );
 };
 
 export default MainInfoBlock;
